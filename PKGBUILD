@@ -1,0 +1,19 @@
+pkgname=apocos-desktop
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Graphical desktop system configuration for Apocalypse OS"
+arch=('any')
+url="https://github.com/PrepperArch/apocos-desktop"
+license=('MIT')
+depends=(
+    apocos-base
+    awesome
+    autorandr
+    lightdm
+    lightdm-slick-greater
+    light-locker
+    xorg-server
+    xf86-input-evdev
+    xf86-video-fbdev
+    xf86-video-vesa
+)

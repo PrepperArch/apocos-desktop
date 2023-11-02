@@ -6,6 +6,7 @@ arch=('any')
 url="https://github.com/PrepperArch/apocos-desktop"
 license=('MIT')
 depends=(
+    accountsservice
     apocos-base
     awesome
     autorandr

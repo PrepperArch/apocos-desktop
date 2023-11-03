@@ -50,7 +50,7 @@ package(){
     install -Dm0644 lightdm-slick-greeter.conf $pkgdir/etc/lightdm/slick-greeter.conf
 
     # Setup X resources
-    install -Dm0644 xinit-apocos.sh $pkgdir/etc/X11/xinit/xinitrc.d/10-apocos.sh
+    install -Dm0755 xinit-apocos.sh $pkgdir/etc/X11/xinit/xinitrc.d/10-apocos.sh
     install -Dm0644 xresource-colors  $pkgdir/usr/share/apocos/desktop/xresource-colors
     install -Dm0644 xresource-xterm  $pkgdir/usr/share/apocos/desktop/xresource-xterm
 }

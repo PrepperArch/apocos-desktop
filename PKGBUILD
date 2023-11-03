@@ -1,6 +1,6 @@
 pkgbase=apocos
 pkgver=0.0.3
-pkgrel=2
+pkgrel=3
 pkgname='apocos-desktop'
 pkgdesc="Graphical desktop system configuration for Apocalypse OS"
 arch=('any')

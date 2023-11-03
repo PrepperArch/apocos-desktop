@@ -18,7 +18,7 @@ depends=(
     'apocos-base'
 
     # Xorg
-    'xorg-server' 'xorg-setxkbmap' 'xorg-xset' 'xorg-xev'
+    'xorg-server' 'xorg-setxkbmap' 'xorg-xset' 'xorg-xev' 'xorg-xrdb'
     'intel-ucode' 'xorg-xrandr' 'vulkan-intel' 'libvdpau-va-gl'
     'xf86-input-evdev' 'xf86-video-fbdev' 'xf86-video-vesa'
 
@@ -27,7 +27,7 @@ depends=(
     'light-locker' 'awesome' 'accountsservice'
 
     # Tools
-    'autorandr'
+    'xterm' 'autorandr'
 )
 install="$pkgname.install"
 

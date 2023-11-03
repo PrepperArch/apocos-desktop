@@ -27,6 +27,7 @@ depends=(
     'xorg-server' 'xorg-setxkbmap' 'xorg-xset' 'xorg-xev' 'xorg-xrdb'
     'intel-ucode' 'xorg-xrandr' 'vulkan-intel' 'libvdpau-va-gl'
     'xf86-input-evdev' 'xf86-video-fbdev' 'xf86-video-vesa'
+    'ttf-liberation'
 
     # Desktop Environment
     'lightdm' 'lightdm-slick-greeter' 'dex'

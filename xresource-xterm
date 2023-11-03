@@ -7,3 +7,4 @@ XTerm.vt100.saveLines: 4096
 XTerm.vt100.bellIsUrgent: true
 *.vt100.reverseVideo: true
 XTerm.vt100.renderFont: true
+XTerm*faceName: x:fixed,xft:Liberation Mono

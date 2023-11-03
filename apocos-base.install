@@ -1,0 +1,8 @@
+post_install() {
+    useradd -s /usr/bin/bash -m -U -G wheel,network,realtime prepper
+
+    systemctl enable --now NetworkManager
+    systemctl enable --now systemd-resolved
+    systemctl enable --now firewalld
+    systemctl enable --now bluetooth
+}

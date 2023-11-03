@@ -1,5 +1,5 @@
 pkgbase=apocos
-pkgver=0.0.2
+pkgver=0.0.3
 pkgrel=1
 pkgname='apocos-desktop'
 pkgdesc="Graphical desktop system configuration for Apocalypse OS"
@@ -9,10 +9,16 @@ license=('MIT')
 source=(
     'lightdm.conf'
     'lightdm-slick-greeter.conf'
+    'xinit-apocos.sh'
+    'xresource-colors'
+    'xresource-xterm'
 )
 sha256sums=(
     'a53767c6791541a5e3af927ad323151e1968ccae475ca9708e130a30cf47650d'
     '0c64985be8fa73bd41dda7f493311b89f0e3695bcec25ddba75e9fce5be1d249'
+    '42c4520ef5a906fe4f7a75cc5e1f572dd2c05abd194b44eb13464e2c910d4733'
+    '397137596ebb4dbafbe1a259e6df13bcbdc3205a7fb98dc1674e19aa0105162d'
+    '6a2bf2a231f9cf1a9b78307a5b634892ded3169a11409c8c82235ac8f5033021'
 )
 depends=(
     'apocos-base'
@@ -42,4 +48,9 @@ package(){
     chmod 0755 -R $pkgdir/etc/lightdm/lightdm.conf.d
     install -Dm0644 lightdm.conf $pkgdir/etc/lightdm/lightdm.conf.d/apocos-lightdm.conf
     install -Dm0644 lightdm-slick-greeter.conf $pkgdir/etc/lightdm/slick-greeter.conf
+
+    # Setup X resources
+    install -Dm0644 xinit-apocos.sh $pkgdir/etc/X11/xinit/xinitrc.d/10-apocos.sh
+    install -Dm0644 xresource-colors  $pkgdir/usr/share/apocos/dekstop/xresource-colors
+    install -Dm0644 xresource-xterm  $pkgdir/usr/share/apocos/dekstop/xresource-xterm
 }

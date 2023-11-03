@@ -1,6 +1,6 @@
 pkgbase=apocos
 pkgver=0.0.3
-pkgrel=1
+pkgrel=2
 pkgname='apocos-desktop'
 pkgdesc="Graphical desktop system configuration for Apocalypse OS"
 arch=('any')
@@ -51,6 +51,6 @@ package(){
 
     # Setup X resources
     install -Dm0644 xinit-apocos.sh $pkgdir/etc/X11/xinit/xinitrc.d/10-apocos.sh
-    install -Dm0644 xresource-colors  $pkgdir/usr/share/apocos/dekstop/xresource-colors
-    install -Dm0644 xresource-xterm  $pkgdir/usr/share/apocos/dekstop/xresource-xterm
+    install -Dm0644 xresource-colors  $pkgdir/usr/share/apocos/desktop/xresource-colors
+    install -Dm0644 xresource-xterm  $pkgdir/usr/share/apocos/desktop/xresource-xterm
 }

@@ -5,6 +5,6 @@ XTerm.vt100.backarrowKey: false
 XTerm.ttyModes: erase ^?
 XTerm.vt100.saveLines: 4096
 XTerm.vt100.bellIsUrgent: true
-*.vt100.reverseVideo: true
+*.vt100.reverseVideo: false
 XTerm.vt100.renderFont: true
 XTerm*faceName: x:fixed,xft:Liberation Mono

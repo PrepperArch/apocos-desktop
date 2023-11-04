@@ -1,6 +1,6 @@
 pkgbase=apocos
 pkgver=0.0.3
-pkgrel=5
+pkgrel=6
 pkgname='apocos-desktop'
 pkgdesc="Graphical desktop system configuration for Apocalypse OS"
 arch=('any')
@@ -30,7 +30,7 @@ depends=(
     'ttf-liberation'
 
     # Desktop Environment
-    'lightdm' 'lightdm-slick-greeter' 'dex'
+    'lightdm' 'lightdm-slick-greeter' 'dex' 'feh'
     'light-locker' 'awesome' 'accountsservice'
 
     # Tools

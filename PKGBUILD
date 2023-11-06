@@ -1,6 +1,6 @@
 pkgbase=apocos
-pkgver=0.0.3
-pkgrel=7
+pkgver=0.0.4
+pkgrel=1
 pkgname='apocos-desktop'
 pkgdesc="Graphical desktop system configuration for Apocalypse OS"
 arch=('any')
@@ -34,7 +34,7 @@ depends=(
     'light-locker' 'awesome' 'accountsservice'
 
     # Tools
-    'nano' 'xterm' 'autorandr' 'gcc'
+    'nano' 'xterm' 'autorandr' 'gcc' 'libnotify'
 )
 install="$pkgname.install"
 

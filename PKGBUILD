@@ -1,6 +1,6 @@
 pkgbase=apocos
 pkgver=0.0.4
-pkgrel=2
+pkgrel=3
 pkgname='apocos-desktop'
 pkgdesc="Graphical desktop system configuration for Apocalypse OS"
 arch=('any')
@@ -15,7 +15,7 @@ source=(
 )
 sha256sums=(
     'a53767c6791541a5e3af927ad323151e1968ccae475ca9708e130a30cf47650d'
-    '0c64985be8fa73bd41dda7f493311b89f0e3695bcec25ddba75e9fce5be1d249'
+    '3d3ad7f633792ec979e85e87ce732496f39f30a41a97e21cbd578d13f0b1129b'
     '42c4520ef5a906fe4f7a75cc5e1f572dd2c05abd194b44eb13464e2c910d4733'
     '397137596ebb4dbafbe1a259e6df13bcbdc3205a7fb98dc1674e19aa0105162d'
     '5f0de52eb7972255d4f94b393f61aaa6751482b8654f2804b0190bcb8f8981ac'

@@ -1,6 +1,6 @@
 pkgbase=apocos
 pkgver=0.0.4
-pkgrel=1
+pkgrel=2
 pkgname='apocos-desktop'
 pkgdesc="Graphical desktop system configuration for Apocalypse OS"
 arch=('any')
@@ -27,7 +27,7 @@ depends=(
     'xorg-server' 'xorg-setxkbmap' 'xorg-xset' 'xorg-xev' 'xorg-xrdb'
     'intel-ucode' 'xorg-xrandr' 'vulkan-intel' 'libvdpau-va-gl'
     'xf86-input-evdev' 'xf86-video-fbdev' 'xf86-video-vesa'
-    'ttf-liberation'
+    'ttf-liberation' 'picom'
 
     # Desktop Environment
     'lightdm' 'lightdm-slick-greeter' 'dex' 'feh'
